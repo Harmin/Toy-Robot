@@ -54,3 +54,6 @@ Output: 3,3,NORTH
 ## Deliverables
 The source files, the test data and any test code as well as instructions on how to build, run and test it.
 It is not required to provide any graphical output showing the movement of the toy robot.
+
+## Developer Comments
+Application written in kotlin used MVVM, Koin for dependency Injection. Added validations, Unit Tests and each layer is made completely independent. Can run usecase tests, viewmodel tests or manually by installing the app and giving commands to robot to move, rotate or place it on table from UI itself(even printing log to display the commands entered).
